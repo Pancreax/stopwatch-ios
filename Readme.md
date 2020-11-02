@@ -4,18 +4,19 @@
 
 That's right! The best app ever made for iOS! 😍
 
-Go on and have HOURS* of fun with this incredible stopwatch! ⌚︎
-(**though it will only show you up to the minutes*)
+Go on and have HOURS* of fun with this incredible stopwatch! ⌚︎ (**though it will only show you up to the minutes*)
 
 ![](./Doc/stopwatch1.png)
 
 **You can record several lap times**
+
 And it will even show you the total time! Wow!
 
 ![](./Doc/stopwatch2.png)
 
 
 **Watch this watch!** 👀
+
 Click on `Start` button, the watch will start count (incredible!) and the button then says `Next` so you can stop the previous lap and start the next in one move! 🏃‍
 
 In the last lap, click on the `Stop` button and it will show you the total time of all laps. The button then says `Clean` and you can click it to clean all the lap times and begin a new run! 🧹
