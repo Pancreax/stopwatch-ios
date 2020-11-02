@@ -88,7 +88,11 @@ class StopWatchViewController: UIViewController {
             }
         }
     }
-
+    
+    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        super.viewWillTransition(to: size, with: coordinator)
+        lapsCollectionView.collectionViewLayout.invalidateLayout()
+    }
 }
 
 extension StopWatchViewController: UICollectionViewDataSource {
@@ -113,6 +117,11 @@ extension StopWatchViewController: UICollectionViewDelegate {
 }
 
 extension StopWatchViewController: UICollectionViewDelegateFlowLayout {
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {
+        TableHeader.BaseSize
+    }
+    
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         LapCellView.BaseSize
     }

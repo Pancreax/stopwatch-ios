@@ -20,6 +20,7 @@
 		3D76E38225501CDB00E02B1B /* LapCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D76E38125501CDB00E02B1B /* LapCellModel.swift */; };
 		3D76E38525501DE800E02B1B /* LapCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D76E38425501DE800E02B1B /* LapCellView.swift */; };
 		3DC8A82325502F71000DE00A /* TableHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC8A82225502F71000DE00A /* TableHeader.swift */; };
+		3DC8A8272550397A000DE00A /* UIDevice+screenSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC8A8262550397A000DE00A /* UIDevice+screenSize.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		3D76E38125501CDB00E02B1B /* LapCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LapCellModel.swift; sourceTree = "<group>"; };
 		3D76E38425501DE800E02B1B /* LapCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LapCellView.swift; sourceTree = "<group>"; };
 		3DC8A82225502F71000DE00A /* TableHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableHeader.swift; sourceTree = "<group>"; };
+		3DC8A8262550397A000DE00A /* UIDevice+screenSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+screenSize.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		3D66D62A254B72AB00C93043 /* Stop Watch */ = {
 			isa = PBXGroup;
 			children = (
+				3DC8A8252550395D000DE00A /* Extensions */,
 				3D6DFBE5254EF87C00F39ABD /* Model */,
 				3D0C09ED254CF5A000E57D35 /* ViewControllers */,
 				3D66D640254B7C5300C93043 /* CustomViews */,
@@ -158,6 +161,14 @@
 				3D76E38125501CDB00E02B1B /* LapCellModel.swift */,
 			);
 			path = CollectionViewModels;
+			sourceTree = "<group>";
+		};
+		3DC8A8252550395D000DE00A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3DC8A8262550397A000DE00A /* UIDevice+screenSize.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +252,7 @@
 				3D66D62C254B72AC00C93043 /* AppDelegate.swift in Sources */,
 				3D76E38225501CDB00E02B1B /* LapCellModel.swift in Sources */,
 				3D66D62E254B72AC00C93043 /* SceneDelegate.swift in Sources */,
+				3DC8A8272550397A000DE00A /* UIDevice+screenSize.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

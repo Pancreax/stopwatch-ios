@@ -10,7 +10,7 @@ import UIKit
 
 class LapCellView: UICollectionViewCell, CollectionViewCell {
     static var ReuseID = "LapCellView"
-    static var BaseSize = CGSize(width: UIScreen.main.bounds.width, height: 50)
+    static var BaseSize: CGSize { CGSize(width: UIDevice.screenSize.width, height: 50) }
     
     override func awakeFromNib() {
         layer.borderWidth = 1
