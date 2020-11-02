@@ -3,6 +3,7 @@
 ## A simple stopwatch app for iOS
 
 That's right! The best app ever made for iOS! 😍
+
 Go on and have HOURS* of fun with this incredible stopwatch! ⌚︎
 (**though it will only show you up to the minutes*)
 
