@@ -33,8 +33,16 @@ And also in dark mode! 🌛
 
 ![](./Doc/darkmode.png)
 
-----
+## How to build and run
 
-For some misterious reason, my brain put a space between `stop` and `watch` when i was naming the project. I know, that's sad 😥 🧠. 
+Just clone this repo and open the `Stop Watch.xcodeproj` file.
+
+```
+git clone git@github.com:Pancreax/stopwatch-ios.git
+cd stopwatch-ios
+open Stop\ Watch.xcodeproj/
+```
+
+Yes, for some misterious reason, my brain put a space between `stop` and `watch` when i was naming the project. I know, that's sad 😥 🧠. 
 
 But hey! Life give you some lemons, you go and make yourself a `stop watch`! (*Of course you wont make a lemonade, that's disgusting!* 🤢)
